@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import {Header} from './features/header/headerSlice.js'
 
 function App() {
   return (
     <div className="App">
-    {
-      // <Header />
-      // <Main />
-      //<Subreddits />
-    }
+    
+       <Header />
+      
+    
     </div>
   );
 }
